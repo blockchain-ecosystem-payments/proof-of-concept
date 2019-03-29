@@ -7,8 +7,8 @@ contract PaymentForEcosystemServices is usingOraclize {
     // Define state variables
     uint constant public payment_for_ecosystem_service = 1 ether;
     uint public percentage_landcover_change;
-    address payable constant PES_buyer = 0x37D148701557ae93694b190EA73a5a27e8F0acCc;
-    address payable constant PES_seller = 0x8626cb4a28182CbeE8947734FC2Df26dC82086B9;
+    address payable constant PES_buyer = 0x2C1179A512156F0d937ce30ef315046e3B9E50Aa;
+    address payable constant PES_seller = 0xEEF8Acd8C3530f28b61549fA5012E0A462E8A67F;
     
     // Initialize PES payment by querying the Oraclize computation datasource
     function InitializePES () public payable {
