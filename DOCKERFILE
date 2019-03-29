@@ -1,0 +1,15 @@
+FROM ubuntu:18.04
+
+COPY credentials "/root/.config/earthengine/"
+
+ADD land-cover-classification.py /
+
+RUN apt-get update 
+RUN	apt-get install -y python-pip 
+
+RUN pip install google-api-python-client 
+RUN	pip install pyCrypto 
+RUN	pip install earthengine-api 
+RUN	pip install oauth2client
+
+CMD ["python", "land-cover-classification.py"]
