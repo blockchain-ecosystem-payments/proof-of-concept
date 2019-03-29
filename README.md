@@ -12,4 +12,4 @@ A test run was executed resulting in the following transactions:
 
 - Initializing PES function: [0xc3ce00fa3445fa207548541608afa5329141a6bcf0ba9ebba6dc39cb6119c50d](https://ropsten.etherscan.io/tx/0xc3ce00fa3445fa207548541608afa5329141a6bcf0ba9ebba6dc39cb6119c50d)
 - Oraclize call-back: [0xc3ce00fa3445fa207548541608afa5329141a6bcf0ba9ebba6dc39cb6119c50d](https://ropsten.etherscan.io/tx/0xc3ce00fa3445fa207548541608afa5329141a6bcf0ba9ebba6dc39cb6119c50d#internal)
-- Executing PES and returning leftover ether: [0x71e7075e58ee541214a9015424c7146b11d5c51aafae70039ca2fc9b9fb0d581](https://ropsten.etherscan.io/tx/0x71e7075e58ee541214a9015424c7146b11d5c51aafae70039ca2fc9b9fb0d581)
+- Executing PES transfer: [0x71e7075e58ee541214a9015424c7146b11d5c51aafae70039ca2fc9b9fb0d581](https://ropsten.etherscan.io/tx/0x71e7075e58ee541214a9015424c7146b11d5c51aafae70039ca2fc9b9fb0d581)
