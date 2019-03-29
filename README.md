@@ -4,7 +4,7 @@ Schematic diagramm of the proof of concept:
 
 The proof of concept was deployed on the Ethereum Ropsten testnet under the following addresses:
 
-- PES buyer account [ 0x37D148701557ae93694b190EA73a5a27e8F0acCc ] (https://ropsten.etherscan.io/address/0x37D148701557ae93694b190EA73a5a27e8F0acCc)
+- PES buyer account [ 0x37D148701557ae93694b190EA73a5a27e8F0acCc ] (http://ropsten.etherscan.io/address/0x37D148701557ae93694b190EA73a5a27e8F0acCc)
 - PES seller account: [0x8626cb4a28182CbeE8947734FC2Df26dC82086B9] (https://ropsten.etherscan.io/address/0x8626cb4a28182cbee8947734fc2df26dc82086b9)
 - PES smart contract: [0x213427C10786b5220DDC6149c731a29841d8aDdd] (https://ropsten.etherscan.io/address/0x213427c10786b5220ddc6149c731a29841d8addd)
 
