@@ -20,7 +20,7 @@ contract PaymentForEcosystemServices is usingOraclize {
     function __callback(bytes32 _myid, string memory _result) public {
         if(msg.sender != oraclize_cbAddress()) revert();
         percentage_landcover_change = parseInt(_result);
-        TransferFunction();
+        TransferPES();
     }
     
     // Executing the payment and transfer remaining balance back to PES buyer's account
