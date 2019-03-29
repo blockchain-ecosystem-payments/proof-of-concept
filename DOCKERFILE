@@ -1,15 +1,21 @@
+# Pull Ubuntu image
 FROM ubuntu:18.04
 
+# Copy Google Earth Engine authentication token into Docker container
 COPY credentials "/root/.config/earthengine/"
 
+# Add Python script for land cover classification to Docker container
 ADD land-cover-classification.py /
 
+# Install Python 
 RUN apt-get update 
 RUN	apt-get install -y python-pip 
 
+# Install Python packages required for Google Earth Engine Python API
 RUN pip install google-api-python-client 
 RUN	pip install pyCrypto 
 RUN	pip install earthengine-api 
 RUN	pip install oauth2client
 
+# Execute Python script for land cover classification 
 CMD ["python", "land-cover-classification.py"]
